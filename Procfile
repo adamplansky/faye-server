@@ -1,1 +1,1 @@
-web: bundle exec rackup faye.ru -s thin -E production
+web: bundle exec rackup faye.ru -s thin -E production -p $PORT
